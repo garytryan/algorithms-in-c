@@ -24,3 +24,6 @@ spiral: ./src/spiral.c
 
 find_rotation_point: ./src/find_rotation_point.c
 	gcc ./src/find_rotation_point.c -o ./bin/find_rotation_point
+
+linked_list_find_midpoint: ./src/linked_list_find_midpoint.c
+	gcc ./src/linked_list_find_midpoint.c -o ./bin/linked_list_find_midpoint
