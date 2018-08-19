@@ -21,3 +21,6 @@ are_anagrams: ./src/are_anagrams.c
 
 spiral: ./src/spiral.c
 	gcc ./src/spiral.c -o ./bin/sprial
+
+find_rotation_point: ./src/find_rotation_point.c
+	gcc ./src/find_rotation_point.c -o ./bin/find_rotation_point
