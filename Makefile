@@ -27,3 +27,6 @@ find_rotation_point: ./src/find_rotation_point.c
 
 linked_list_find_midpoint: ./src/linked_list_find_midpoint.c
 	gcc ./src/linked_list_find_midpoint.c -o ./bin/linked_list_find_midpoint
+
+trie: ./src/trie.c
+	gcc ./src/trie.c -o ./bin/trie
