@@ -33,3 +33,6 @@ trie: ./src/trie.c
 
 min_heap: ./src/min_heap.c
 	gcc ./src/min_heap.c -o ./bin/min_heap
+
+reverse_linked_list: ./src/reverse_linked_list.c
+	gcc ./src/reverse_linked_list.c -o ./bin/reverse_linked_list
