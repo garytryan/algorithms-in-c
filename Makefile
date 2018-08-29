@@ -31,5 +31,5 @@ linked_list_find_midpoint: ./src/linked_list_find_midpoint.c
 trie: ./src/trie.c
 	gcc ./src/trie.c -o ./bin/trie
 
-heap: ./src/heap.c
-	gcc ./src/heap.c -o ./bin/heap
+min_heap: ./src/min_heap.c
+	gcc ./src/min_heap.c -o ./bin/min_heap
