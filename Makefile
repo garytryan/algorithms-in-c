@@ -36,3 +36,6 @@ min_heap: ./src/min_heap.c
 
 reverse_linked_list: ./src/reverse_linked_list.c
 	gcc ./src/reverse_linked_list.c -o ./bin/reverse_linked_list
+
+dynamic_array: ./src/dynamic_array.c
+	gcc ./src/dynamic_array.c -o ./bin/dynamic_array
