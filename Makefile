@@ -39,3 +39,15 @@ reverse_linked_list: ./src/reverse_linked_list.c
 
 dynamic_array: ./src/dynamic_array.c
 	gcc ./src/dynamic_array.c -o ./bin/dynamic_array
+
+fibonacci: ./src/fibonacci.c
+	gcc ./src/fibonacci.c -o ./bin/fibonacci
+
+fibonacci_recursive: ./src/fibonacci_recursive.c
+	gcc ./src/fibonacci_recursive.c -o ./bin/fibonacci_recursive
+
+fibonacci_dynamic: ./src/fibonacci_dynamic.c
+	gcc ./src/fibonacci_dynamic.c -o ./bin/fibonacci_dynamic
+
+subset_sum: ./src/subset_sum.c
+	gcc ./src/subset_sum.c -o ./bin/subset_sum
