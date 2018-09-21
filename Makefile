@@ -55,3 +55,5 @@ subset_sum: ./src/subset_sum.c
 universal_value_tree: ./src/universal_value_tree.c
 	gcc ./src/universal_value_tree.c -o ./bin/universal_value_tree
 
+greatest_product_of_three: ./src/greatest_product_of_three.c
+	gcc ./src/greatest_product_of_three.c -o ./bin/greatest_product_of_three
