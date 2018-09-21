@@ -51,3 +51,7 @@ fibonacci_dynamic: ./src/fibonacci_dynamic.c
 
 subset_sum: ./src/subset_sum.c
 	gcc ./src/subset_sum.c -o ./bin/subset_sum
+
+universal_value_tree: ./src/universal_value_tree.c
+	gcc ./src/universal_value_tree.c -o ./bin/universal_value_tree
+
