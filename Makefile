@@ -60,3 +60,9 @@ greatest_product_of_three: ./src/greatest_product_of_three.c
 
 subset_sum: ./src/subset_sum.c
 	gcc ./src/subset_sum.c -o ./bin/subset_sum
+
+all_substrings: ./src/all_substrings.c
+	gcc ./src/all_substrings.c -o ./bin/all_substrings
+
+all_substrings_recursive: ./src/all_substrings_recursive.c
+	gcc ./src/all_substrings_recursive.c -o ./bin/all_substrings_recursive
