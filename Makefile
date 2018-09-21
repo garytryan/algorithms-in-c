@@ -49,11 +49,14 @@ fibonacci_recursive: ./src/fibonacci_recursive.c
 fibonacci_dynamic: ./src/fibonacci_dynamic.c
 	gcc ./src/fibonacci_dynamic.c -o ./bin/fibonacci_dynamic
 
-subset_sum: ./src/subset_sum.c
-	gcc ./src/subset_sum.c -o ./bin/subset_sum
+subset_sum_1: ./src/subset_sum_1.c
+	gcc ./src/subset_sum_1.c -o ./bin/subset_sum_1
 
 universal_value_tree: ./src/universal_value_tree.c
 	gcc ./src/universal_value_tree.c -o ./bin/universal_value_tree
 
 greatest_product_of_three: ./src/greatest_product_of_three.c
 	gcc ./src/greatest_product_of_three.c -o ./bin/greatest_product_of_three
+
+subset_sum: ./src/subset_sum.c
+	gcc ./src/subset_sum.c -o ./bin/subset_sum
