@@ -66,3 +66,6 @@ all_substrings: ./src/all_substrings.c
 
 all_substrings_recursive: ./src/all_substrings_recursive.c
 	gcc ./src/all_substrings_recursive.c -o ./bin/all_substrings_recursive
+
+binary_search: ./src/binary_search.c
+	gcc ./src/binary_search.c -o ./bin/binary_search
