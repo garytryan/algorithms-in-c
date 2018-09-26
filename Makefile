@@ -76,3 +76,6 @@ longest_palindrome: ./src/longest_palindrome.c
 roman_to_int: ./src/roman_to_int.c
 	gcc ./src/roman_to_int.c -o ./bin/roman_to_int
 
+longest_common_prefix: ./src/longest_common_prefix.c
+	gcc ./src/longest_common_prefix.c -o ./bin/longest_common_prefix
+
