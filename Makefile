@@ -73,3 +73,6 @@ binary_search: ./src/binary_search.c
 longest_palindrome: ./src/longest_palindrome.c
 	gcc ./src/longest_palindrome.c -o ./bin/longest_palindrome
 
+roman_to_int: ./src/roman_to_int.c
+	gcc ./src/roman_to_int.c -o ./bin/roman_to_int
+
