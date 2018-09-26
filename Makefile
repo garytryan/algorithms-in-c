@@ -79,3 +79,5 @@ roman_to_int: ./src/roman_to_int.c
 longest_common_prefix: ./src/longest_common_prefix.c
 	gcc ./src/longest_common_prefix.c -o ./bin/longest_common_prefix
 
+all_permutations: ./src/all_permutations.c
+	gcc ./src/all_permutations.c -o ./bin/all_permutations
