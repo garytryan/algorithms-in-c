@@ -69,3 +69,7 @@ all_substrings_recursive: ./src/all_substrings_recursive.c
 
 binary_search: ./src/binary_search.c
 	gcc ./src/binary_search.c -o ./bin/binary_search
+
+longest_palindrome: ./src/longest_palindrome.c
+	gcc ./src/longest_palindrome.c -o ./bin/longest_palindrome
+
