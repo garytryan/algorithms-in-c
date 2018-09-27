@@ -81,3 +81,6 @@ longest_common_prefix: ./src/longest_common_prefix.c
 
 all_permutations: ./src/all_permutations.c
 	gcc ./src/all_permutations.c -o ./bin/all_permutations
+
+quicksort: ./src/quicksort.c
+	gcc ./src/quicksort.c -o ./bin/quicksort
